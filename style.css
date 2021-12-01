@@ -1,0 +1,123 @@
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Josefin Sans', sans-serif; */
+
+.whole-page {
+  max-width:1000px;
+/*   background:blue; */
+  margin:auto;
+}
+header {
+  font-family: 'Abril Fatface', cursive;
+  margin:auto;
+  color:#222;
+  margin-top:-10px;
+  position:relative;
+  margin-bottom:40px;
+}
+header img {
+  max-width: 1000px;
+}
+.nadpis {
+  position:absolute;
+  bottom:10px;
+  left:24%;
+/*   left:244px; */
+/*   right:244px; */
+}
+h1 {
+  font-size:60px;
+  margin:0;
+}
+h2 {
+  font-size:30px;
+  margin:0;
+}
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top:50px;
+  margin-bottom:50px;
+  font-size:26px;
+  color:black;
+}
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:22px;
+  line-height: 150%;
+  color:black;
+  margin-top:0;
+  margin-bottom:0;
+}
+h5 {
+  font-family: 'Merriweather', serif;
+  font-size:15px;
+  font-style:italic;
+  margin:0;
+}
+.part-1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+  color: #222;
+  max-width: 800px;
+  margin:auto;
+  line-height: 140%;
+}
+.part-2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+  color: #222;
+  max-width: 800px;
+  margin:auto;
+  line-height: 140%;
+}
+.part-3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+  color: #222;
+  max-width: 800px;
+  margin:auto;
+  line-height: 140%;
+}
+.part-4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+  color: #222;
+  max-width: 800px;
+  margin:auto;
+  line-height: 140%;
+}
+.quote {
+  font-family: 'Abril Fatface', cursive;
+  max-width:900px;
+  display:flex;
+  margin:auto;
+  margin-top:50px;
+  margin-bottom:50px;
+  background:#424242;
+  height:220px;
+  justify-content:start;
+  align-items:center;
+  font-size:40px;
+  color:white;
+}
+.first {
+  margin:0;
+  text-align:left;
+  padding-right:30px;
+}
+.quote::before {
+  content: '“';
+  font-size:90px;
+  margin-bottom:80px;
+  margin-left:0px;
+}
+hr {
+  color:black;
+  height:5px;
+  width:900px;
+  background:black;
+  border:none;
+  margin:auto;
+}
